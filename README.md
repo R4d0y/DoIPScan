@@ -1,4 +1,6 @@
-oIP scanner is a Python based script that enumerates the diffenrent services availabe in an Electronical Control Unit.
+# DoIP Scanner
+
+DoIP scanner is a Python based script that enumerates the diffenrent services availabe in an Electronical Control Unit.
 
 ## Requirements
 
