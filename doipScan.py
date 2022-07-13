@@ -33,10 +33,10 @@ if __name__ == "__main__":
 
 
     if args.client_logical_address == None:
-        scan = server.Scan(ecu_ip_address,ecu_logical_address)
+        scan = scan.Scan(ecu_ip_address,ecu_logical_address)
     else:
         client_logical_address = int(args.client_logical_address.replace("0x", ""),16)
-        scan = server.Scan(ecu_ip_address,ecu_logical_address,client_logical_address)
+        scan = scan.Scan(ecu_ip_address,ecu_logical_address,client_logical_address)
 
     print('\033[91m'+"==================Starting scanner===================="+'\033[0m')
     scan.session_control('')
